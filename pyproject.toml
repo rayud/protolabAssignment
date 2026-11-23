@@ -1,0 +1,14 @@
+[project]
+name = "protolabs-package-packing"
+version = "1.0.0"
+description = "FastAPI service for heuristic 3D shipping-box packing"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
